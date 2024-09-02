@@ -1,0 +1,75 @@
+{
+  "SCREENS": {
+    "LOGIN": {
+      "INPUTS": {
+        "EMAIL": "Digite seu e-mail",
+        "PASSWORD": "Digite sua senha",
+        "REPEAT_PASSWORD": "Repita sua senha"
+      },
+      "BUTTONS": {
+        "LOGIN": "Entrar",
+        "REGISTER": "Cadastrar"
+      },
+      "REGISTER": {
+        "NAME": "Digite seu nome"
+      }
+    },
+    "CREATE_ACCOUNT": {
+      "SUCCESS": "Conta criada com sucesso",
+      "ERROR": "Erro ao criar conta"
+    },
+    "CREATE_TASK": {
+      "SUCCESS": "Tarefa criada com sucesso",
+      "INPUT": {
+        "TITLE": "Digite o título da tarefa",
+        "DESCRIPTION": "Digite a descrição da tarefa",
+        "DATE": "Selecione a data da tarefa"
+      },
+      "HOLDERS": {
+        "TITLE": "Nome da Tarefa",
+        "DESCRIPTION": "Descrição da Tarefa",
+        "DATE": "Data da Tarefa"
+      }
+    },
+    "DATE_PICKER": {
+      "SELECT_DATE": "Data selecionada: ",
+      "BUTTONS": {
+        "CONFIRM": "Confirmar",
+        "CANCEL": "Cancelar"
+      }
+    },
+    "TASKS": {
+      "BUTTONS": {
+        "DELETE": "Deletar",
+        "UPDATE": "Atualizar",
+        "LOGOUT": "Sair"
+      }
+    },
+    "EDIT_TASK": {
+      "TITLE": "Editar tarefa",
+      "BUTTONS": {
+        "UPDATE": "Atualizar",
+        "UPDATED": "Atualizado com sucesso"
+      }
+    }
+  },
+  "ERRORS": {
+    "GENERIC": {
+      "ERROR": "Não encontrado",
+      "GENERIC": "Ocorreu um erro, tente novamente mais tarde"
+    },
+    "LOGIN": {
+      "AUTHENTICATE": "E-mail ou senha inválidos"
+    },
+    "CREATE_ACCOUNT": {
+      "EMAIL": "E-mail fornecido é inválido",
+      "PASSWORD": "A senha deve ter pelo menos 8 caracteres, incluindo uma letra maiúscula, um número e um caractere especial.",
+      "REPEAT_PASSWORD": "As senhas não coincidem"
+    },
+    "CREATE_TASK": {
+      "TITLE": "O título da tarefa é obrigatório",
+      "DESCRIPTION": "A descrição da tarefa é obrigatória",
+      "DATE": "A data da tarefa é obrigatória"
+    }
+  }
+}
